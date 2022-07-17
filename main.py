@@ -31,7 +31,7 @@ class RiotGen():
         self.driver = webdriver.Firefox(options=options, executable_path=DRIVER_PATH)
     def login(self):
         self.driver.get(BASE_URL)
-        sleep(2)
+        sleep(1.5)
         # insert email
         self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div[1]/div/input').send_keys(email)
         next_btn = self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/button')
