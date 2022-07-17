@@ -20,15 +20,6 @@ username = "".join(random.sample(string.ascii_letters, 8))
 password = "".join(random.sample(all_for_password, 8))
 print('DONE')
 
-# def animated_marker():
-#     widgets = ['>> Creating Account: ',progressbar.AnimatedMarker()]
-#     bar = progressbar.ProgressBar(widgets=widgets).start()   
-#     for i in range(150):
-#         time.sleep(0.1)
-#         bar.update(i)
-
-# print(animated_marker())
-
 print('>> Creating Account...', end=' ')
 class RiotGen():
     def __init__(self):
@@ -42,30 +33,25 @@ class RiotGen():
         self.driver.get(BASE_URL)
         sleep(2)
         # insert email
-        email_in = self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div[1]/div/input')
-        email_in.send_keys(email)
+        self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div[1]/div/input').send_keys(email)
         next_btn = self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/button')
         self.driver.execute_script("arguments[0].click();", next_btn)
         # insert date of birth
-        birth_in = self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div/div[1]/input')
-        birth_in.send_keys('01012000')
+        self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div/div[1]/input').send_keys('01012000')
         next_btn = self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/button')
         self.driver.execute_script("arguments[0].click();", next_btn)
         # insert username
-        username_in = self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div/div/input')
-        username_in.send_keys(username)
+        self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div/div/input').send_keys(username)
         next_btn = self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/button')
         self.driver.execute_script("arguments[0].click();", next_btn)
         # insert passoword
-        password_in = self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div[1]/div/input')
-        password_in.send_keys(password)
+        self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div[1]/div/input').send_keys(password)
         # confirm password
-        confirm_password_in = self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div[3]/div/input')
-        confirm_password_in.send_keys(password)
+        self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div[3]/div/input').send_keys(password)
         next_btn = self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/button')
         self.driver.execute_script("arguments[0].click();", next_btn)
 
-        print('COMPLETE THE hCaptcha TEST')
+        print('COMPLETE THE reCaptcha TEST')
 
 bot = RiotGen()
 bot.login()
@@ -75,9 +61,3 @@ with open('Credentials.txt','a') as handler:
     handler.write(f'Username: {username}\n')
     handler.write(f'Password: {password}\n')
     handler.write('---------------------------\n')
-    
-
-
-
-
-
