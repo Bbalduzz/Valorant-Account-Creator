@@ -22,8 +22,8 @@ This is a Pytho GUI application useful to create new valorant accounts in a matt
 6) Enjoy the new account
 
 ## Pictures
-(https://i.imgur.com/SwztIJR.png)
-(https://i.imgur.com/LqWCGXE.mp4)
+<a href="https://imgur.com/SwztIJR"><img src="https://i.imgur.com/SwztIJR.png" title="ValoGen" /></a>
+<a href="https://imgur.com/LqWCGXE"><img src="https://i.imgur.com/LqWCGXE.mp4" title="ValoGen" /></a>
 
 ### Todo
 - Add ability to autocomplete the hCaptcha test
