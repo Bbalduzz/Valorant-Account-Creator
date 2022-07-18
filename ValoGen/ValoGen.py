@@ -119,7 +119,7 @@ def ValoGen():
             # options.binary_location = r"C:/Program Files/Firefox Developer Edition/firefox.exe" # <== change to your browser binary location
             # options.headless = True
             options.add_argument('--window-size=1920,1200')
-            DRIVER_PATH = 'E:/vscode_projects/python/ValGen/build/geckodriver.exe' # <== change to the path with the projects (ex. /Downloads//ValorantAccountGenerator/geckodriver)
+            DRIVER_PATH = 'E:/vscode_projects/python/ValGen/ValoGen/geckodriver.exe' # <== change to the path with the projects (ex. /Downloads//ValorantAccountGenerator/geckodriver)
             self.driver = webdriver.Firefox(options=options, executable_path=DRIVER_PATH)
         def login(self):
             self.driver.get(BASE_URL)
