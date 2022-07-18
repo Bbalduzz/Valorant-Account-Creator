@@ -1,0 +1,550 @@
+1658067602027	geckodriver	INFO	Listening on 127.0.0.1:63825
+1658067605075	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "63826" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileujzZHs"
+1658067605469	Marionette	INFO	Marionette enabled
+1658067605474	Marionette	INFO	Listening on port 63836
+WebDriver BiDi listening on ws://localhost:63826
+Read port: 63836
+1658067605695	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileujzZHs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63826/devtools/browser/71992b12-ad26-40c1-9aad-3cfc5127bc3b
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+1658067619956	Marionette	INFO	Stopped listening on port 63836
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658067682074	geckodriver	INFO	Listening on 127.0.0.1:60965
+1658067685120	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "60966" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofilel5kS00"
+1658067685439	Marionette	INFO	Marionette enabled
+1658067685443	Marionette	INFO	Listening on port 60976
+WebDriver BiDi listening on ws://localhost:60966
+Read port: 60976
+1658067685529	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofilel5kS00\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60966/devtools/browser/13c60239-1faa-4f12-9f63-973e8ddeefa9
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+1658067849214	geckodriver	INFO	Listening on 127.0.0.1:64418
+1658067852249	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "64419" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileriKcJo"
+1658067852584	Marionette	INFO	Marionette enabled
+1658067852589	Marionette	INFO	Listening on port 64429
+WebDriver BiDi listening on ws://localhost:64419
+Read port: 64429
+1658067852826	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileriKcJo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64419/devtools/browser/aff3926b-8333-4346-a7dd-e1df90560a11
+1658067868204	Marionette	INFO	Stopped listening on port 64429
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658068154701	geckodriver	INFO	Listening on 127.0.0.1:53903
+1658068157741	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "53904" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileGL09IL"
+1658068158027	Marionette	INFO	Marionette enabled
+1658068158031	Marionette	INFO	Listening on port 53915
+WebDriver BiDi listening on ws://localhost:53904
+Read port: 53915
+1658068158115	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileGL09IL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53904/devtools/browser/44dfcfb2-2741-47f7-88f4-de5f8e426bd8
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+1658068168194	Marionette	INFO	Stopped listening on port 53915
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658068698682	geckodriver	INFO	Listening on 127.0.0.1:56097
+1658068701714	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "56098" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofilefhIC8w"
+1658068701981	Marionette	INFO	Marionette enabled
+1658068701985	Marionette	INFO	Listening on port 56107
+WebDriver BiDi listening on ws://localhost:56098
+Read port: 56107
+1658068702128	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofilefhIC8w\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56098/devtools/browser/92258641-3e0d-49a2-be39-407d82be0edc
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+1658069704789	Marionette	INFO	Stopped listening on port 56107
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+nette" "--window-size=1920,1200" "--remote-debugging-port" "49936" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofile6QfDk6"
+1658069110386	Marionette	INFO	Marionette enabled
+1658069110391	Marionette	INFO	Listening on port 49945
+WebDriver BiDi listening on ws://localhost:49936
+Read port: 49945
+1658069110488	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofile6QfDk6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49936/devtools/browser/32af9673-7b81-4562-91e1-2505ba4213c1
+1658069123066	Marionette	INFO	Stopped listening on port 49945
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658069133852	geckodriver	INFO	Listening on 127.0.0.1:51503
+1658069136872	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "51504" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofiledpGvGl"
+1658069137158	Marionette	INFO	Marionette enabled
+1658069137162	Marionette	INFO	Listening on port 51515
+WebDriver BiDi listening on ws://localhost:51504
+Read port: 51515
+1658069137256	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofiledpGvGl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51504/devtools/browser/c76f917f-1957-480c-88b9-8453ee4a9b22
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+1658069152018	Marionette	INFO	Stopped listening on port 51515
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658069153255	geckodriver	INFO	Listening on 127.0.0.1:51556
+1658069156270	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "51557" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileMo2kAc"
+1658069156545	Marionette	INFO	Marionette enabled
+1658069156550	Marionette	INFO	Listening on port 51569
+WebDriver BiDi listening on ws://localhost:51557
+Read port: 51569
+1658069156640	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileMo2kAc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51557/devtools/browser/08646dff-93d3-474b-932e-d1ed617824dd
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+1658069254211	geckodriver	INFO	Listening on 127.0.0.1:61391
+1658069257229	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "61392" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofile3R1NyA"
+1658069257544	Marionette	INFO	Marionette enabled
+1658069257549	Marionette	INFO	Listening on port 61403
+Read port: 61403
+WebDriver BiDi listening on ws://localhost:61392
+1658069257655	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658069470845	geckodriver	INFO	Listening on 127.0.0.1:50729
+1658069473872	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "50730" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofilesRez4l"
+1658069474164	Marionette	INFO	Marionette enabled
+1658069474169	Marionette	INFO	Listening on port 50740
+WebDriver BiDi listening on ws://localhost:50730
+Read port: 50740
+1658069474267	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofilesRez4l\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50730/devtools/browser/97895545-0d2f-4f5e-adad-bffad37ff903
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+1658069496346	Marionette	INFO	Stopped listening on port 50740
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658069506923	geckodriver	INFO	Listening on 127.0.0.1:65025
+1658069516110	geckodriver	INFO	Listening on 127.0.0.1:65031
+1658069519113	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "65032" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileODuUa3"
+1658069519405	Marionette	INFO	Marionette enabled
+1658069519410	Marionette	INFO	Listening on port 65041
+WebDriver BiDi listening on ws://localhost:65032
+Read port: 65041
+1658069519504	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileODuUa3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65032/devtools/browser/5d8069f2-f728-49bc-94b8-bb36ee991ce4
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: https://playvalorant.com/opt_in?redirect=/download/#access_token=eyJraWQiOiJzMSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI5MWYxOGI4Yy04MTU1LTU5YzQtODVkMC03M2FmZjcwNmQwZmUiLCJzY3AiOlsiYWNjb3VudCIsIm9wZW5pZCJdLCJjbG0iOlsiZW1haWxfdmVyaWZpZWQiLCJvcGVuaWQiLCJwdyIsInBob25lX251bWJlcl92ZXJpZmllZCIsImFjY3RfZ250IiwibG9jYWxlIiwiYWNjdCIsImFnZSIsImFjY291bnRfdmVyaWZpZWQiLCJhZmZpbml0eSJdLCJkYXQiOnsibGlkIjoiY0xrWHNpd1RZVlNTNFJzcWFKSVc1ZyIsImMiOiJlYzEifSwiaXNzIjoiaHR0cHM6XC9cL2F1dGgucmlvdGdhbWVzLmNvbSIsImV4cCI6MTY1ODA3MzEzOSwiaWF0IjoxNjU4MDY5NTM5LCJqdGkiOiJNT2hLS09kZFlvNCIsImNpZCI6InBsYXktdmFsb3JhbnQtd2ViLXByb2QifQ.fWlwGlOHAiXIi1Bcowo4fqiQc8AKrJ1J0_Rm9LBEhQ0Laf1yZCAZJ9MD0Yv50dWdwx_Yrwx_-2UV180s0Q7C80V3nHHN3qUsOZSSnm3yA7x-MjvRgxVLd9z5KLx0_ADOdB1ix6L_GDgkKBlb1MA_X3FW4dhCiEibyGla_8rhFoU&scope=account+openid&iss=https%3A%2F%2Fauth.riotgames.com&id_token=eyJraWQiOiJzMSIsImFsZyI6IlJTMjU2In0.eyJhdF9oYXNoIjoiVks3YkVBMTJ5bHBxOEpLenVSYXVtZyIsInN1YiI6IjkxZjE4YjhjLTgxNTUtNTljNC04NWQwLTczYWZmNzA2ZDBmZSIsImNvdW50cnkiOiJpdGEiLCJjb3VudHJ5X2F0IjoxNjU4MDY5NTM1MDAwLCJhbXIiOlsic2lnbnVwIl0sImlzcyI6Imh0dHBzOlwvXC9hdXRoLnJpb3RnYW1lcy5jb20iLCJsb2NhbGUiOiJpdF9JVCIsIm5vbmNlIjoiTnpjc01UQTJMREV3TUN3eCIsImF1ZCI6InBsYXktdmFsb3JhbnQtd2ViLXByb2QiLCJhY3IiOiJ1cm46cmlvdDpnb2xkIiwicGxheWVyX2xvY2FsZSI6Iml0IiwiZXhwIjoxNjU4MTU1OTM5LCJpYXQiOjE2NTgwNjk1MzksImFjY3QiOnsiZ2FtZV9uYW1lIjpudWxsLCJ0YWdfbGluZSI6bnVsbH0sImFnZSI6MjIsImp0aSI6IkpRWmtxNWZyTUxzIiwibG9naW5fY291bnRyeSI6Iml0YSJ9.b85xhaP7rXOYVEDz5FcVqSCKGBfrhx8m0BA9UGtRlSX3QaS3dwdBqkNtnzsov8meIWgTgubg7OF_TLDbtDITGdaeKGpY7CjRX3jyiW9VrwjG4LzgdPLBS-CR7ZnuOOPN-rm6scfEfj9tEyPhoPqU6Lz1JWCWLuaTx8Q_gCrXWLo&state=c2lnbnVw&token_type=Bearer&session_state=K0G6ZboKsF7efRUHDyovncsYq1j3gfPS2q_kQdeJ5IQ.yuBlhObYFJYqhz0t2mhOJA&expires_in=3600 line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+1658069613053	geckodriver	INFO	Listening on 127.0.0.1:58357
+1658069616074	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "58358" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileWSOTYm"
+1658069616395	Marionette	INFO	Marionette enabled
+1658069616401	Marionette	INFO	Listening on port 58368
+WebDriver BiDi listening on ws://localhost:58358
+Read port: 58368
+1658069616640	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileWSOTYm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58358/devtools/browser/e9d87945-0eda-4ace-835b-a8aee8da094f
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+1658069685335	geckodriver	INFO	Listening on 127.0.0.1:49572
+1658069688358	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "49573" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileJCZ7eH"
+1658069688643	Marionette	INFO	Marionette enabled
+1658069688647	Marionette	INFO	Listening on port 49583
+WebDriver BiDi listening on ws://localhost:49573
+Read port: 49583
+1658069688745	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileJCZ7eH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49573/devtools/browser/524750b1-deac-447c-944d-5d03874146e2
+1658069700035	Marionette	INFO	Stopped listening on port 49583
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658069702060	geckodriver	INFO	Listening on 127.0.0.1:49620
+1658069705070	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "49621" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileE9LKe1"
+1658069705377	Marionette	INFO	Marionette enabled
+1658069705381	Marionette	INFO	Listening on port 49631
+WebDriver BiDi listening on ws://localhost:49621
+Read port: 49631
+1658069705484	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileE9LKe1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49621/devtools/browser/0051e0aa-fd14-45a3-a3b0-b865affd718f
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: https://playvalorant.com/opt_in?redirect=/download/#access_token=eyJraWQiOiJzMSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJhMGI4ZGYzMS00YzY1LTU1YjQtYTE5OS1iZjJmM2UzZmFmOWEiLCJzY3AiOlsiYWNjb3VudCIsIm9wZW5pZCJdLCJjbG0iOlsiZW1haWxfdmVyaWZpZWQiLCJvcGVuaWQiLCJwdyIsInBob25lX251bWJlcl92ZXJpZmllZCIsImFjY3RfZ250IiwibG9jYWxlIiwiYWNjdCIsImFnZSIsImFjY291bnRfdmVyaWZpZWQiLCJhZmZpbml0eSJdLCJkYXQiOnsibGlkIjoiVG1DbVJ0THBoTkZ0S1ZvU2p3QllYUSIsImMiOiJlYzEifSwiaXNzIjoiaHR0cHM6XC9cL2F1dGgucmlvdGdhbWVzLmNvbSIsImV4cCI6MTY1ODA3MzMyNCwiaWF0IjoxNjU4MDY5NzI0LCJqdGkiOiJjck1HYjVjWExxbyIsImNpZCI6InBsYXktdmFsb3JhbnQtd2ViLXByb2QifQ.CLmt5VITMZcjFBhUti6orW-r09AA0hp1TqnVmr1KiAM3nhR6oVIY6HFfzIqsKZevlRpendVBc5nAPD04VkgwqnkQNkAUDJ_yi__WCTQXdiZVdsbzTj6Kj7nbvUO2hhDz9edvV-3KuxQybraQmG_-6Wy4NYSYIZOBMi-Bm_mz7MQ&scope=account+openid&iss=https%3A%2F%2Fauth.riotgames.com&id_token=eyJraWQiOiJzMSIsImFsZyI6IlJTMjU2In0.eyJhdF9oYXNoIjoiWk9EaUduVjREdktPN0pINnpEb0VkQSIsInN1YiI6ImEwYjhkZjMxLTRjNjUtNTViNC1hMTk5LWJmMmYzZTNmYWY5YSIsImNvdW50cnkiOiJpdGEiLCJjb3VudHJ5X2F0IjoxNjU4MDY5NzIwMDAwLCJhbXIiOlsic2lnbnVwIl0sImlzcyI6Imh0dHBzOlwvXC9hdXRoLnJpb3RnYW1lcy5jb20iLCJsb2NhbGUiOiJpdF9JVCIsIm5vbmNlIjoiTnpjc01UQTJMREV3TUN3eCIsImF1ZCI6InBsYXktdmFsb3JhbnQtd2ViLXByb2QiLCJhY3IiOiJ1cm46cmlvdDpnb2xkIiwicGxheWVyX2xvY2FsZSI6Iml0IiwiZXhwIjoxNjU4MTU2MTI0LCJpYXQiOjE2NTgwNjk3MjQsImFjY3QiOnsiZ2FtZV9uYW1lIjpudWxsLCJ0YWdfbGluZSI6bnVsbH0sImFnZSI6MjIsImp0aSI6ImJ5TlZObkxmbFNRIiwibG9naW5fY291bnRyeSI6Iml0YSJ9.hYC66YzZjjbbzxMd35xhw4dYqpjyQbdGPOsrM6Kbze-RCM2BlfUiupHj-wAFf5DxUfsZ7LMvenB-eO-KEtbBc6ylEPHRuqbI6NgHhlxknTuGEpUHQSPvnC9LF-a75V9jePor9N-bSj-ntYkUhOUUT2SP5h32jFU1_Q3Cy4RfJBs&state=c2lnbnVw&token_type=Bearer&session_state=JVCPcSqUGjPwTTcVGmUK9owfkRhmDzllDN7deKiV9zA.7QwDp5rzCE8xwAmDfwxQ3g&expires_in=3600 line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+1658070000149	Marionette	INFO	Stopped listening on port 49631
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+nette" "--window-size=1920,1200" "--remote-debugging-port" "52233" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofiledPRBHR"
+1658069792765	Marionette	INFO	Marionette enabled
+1658069792769	Marionette	INFO	Listening on port 49581
+WebDriver BiDi listening on ws://localhost:52233
+Read port: 49581
+1658069792872	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofiledPRBHR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52233/devtools/browser/7a44f556-7a3a-4b39-b772-8b9d36069a24
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+1658070000729	Marionette	INFO	Stopped listening on port 49581
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658070646003	geckodriver	INFO	Listening on 127.0.0.1:55126
+1658070649028	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "55127" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileZE3KVX"
+1658070649430	Marionette	INFO	Marionette enabled
+1658070649436	Marionette	INFO	Listening on port 55136
+WebDriver BiDi listening on ws://localhost:55127
+Read port: 55136
+1658070649568	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileZE3KVX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55127/devtools/browser/7733fe10-dca3-474f-a89d-141d60ae103e
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+1658071112137	Marionette	INFO	Stopped listening on port 55136
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+nette" "--window-size=1920,1200" "--remote-debugging-port" "57128" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileIh0Ni9"
+1658070851302	Marionette	INFO	Marionette enabled
+1658070851308	Marionette	INFO	Listening on port 57137
+WebDriver BiDi listening on ws://localhost:57128
+Read port: 57137
+1658070851417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileIh0Ni9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57128/devtools/browser/6a4ed594-e4c4-4bed-9b39-23fa7b30bc0f
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+1658070860333	Marionette	INFO	Stopped listening on port 57137
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658070884404	geckodriver	INFO	Listening on 127.0.0.1:51172
+1658070887429	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "51173" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofile2BPvUK"
+1658070887719	Marionette	INFO	Marionette enabled
+1658070887724	Marionette	INFO	Listening on port 51182
+WebDriver BiDi listening on ws://localhost:51173
+Read port: 51182
+1658070887821	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofile2BPvUK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51173/devtools/browser/9c359486-9923-4b6d-8853-a5099b8e215b
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+1658071111441	Marionette	INFO	Stopped listening on port 51182
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+nette" "--window-size=1920,1200" "--remote-debugging-port" "54830" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileUxfgUT"
+1658071103552	Marionette	INFO	Marionette enabled
+1658071103558	Marionette	INFO	Listening on port 54840
+WebDriver BiDi listening on ws://localhost:54830
+Read port: 54840
+1658071103828	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileUxfgUT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54830/devtools/browser/f3f1686f-4301-4585-937c-ae31c45ec4c5
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+1658071283929	Marionette	INFO	Stopped listening on port 54840
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+nette" "--window-size=1920,1200" "--remote-debugging-port" "55388" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileRZE7c3"
+1658071281044	Marionette	INFO	Marionette enabled
+1658071281050	Marionette	INFO	Listening on port 55397
+WebDriver BiDi listening on ws://localhost:55388
+Read port: 55397
+1658071281178	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileRZE7c3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55388/devtools/browser/231ea1c4-11f2-4c17-a2ab-8c898a1b6318
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 595: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+1658071767596	geckodriver	INFO	Listening on 127.0.0.1:58376
+1658071770625	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "58377" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofilebFr4EC"
+1658071770907	Marionette	INFO	Marionette enabled
+1658071770912	Marionette	INFO	Listening on port 58387
+WebDriver BiDi listening on ws://localhost:58377
+Read port: 58387
+1658071771006	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofilebFr4EC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58377/devtools/browser/a912cf45-032e-427b-a381-d4f131e1ad41
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: https://playvalorant.com/opt_in?redirect=/download/#access_token=eyJraWQiOiJzMSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI2Y2I3MjRlOS02MjQxLTVmODAtYTc4NS1hMTM3YTFiNTBlNjgiLCJzY3AiOlsiYWNjb3VudCIsIm9wZW5pZCJdLCJjbG0iOlsiZW1haWxfdmVyaWZpZWQiLCJvcGVuaWQiLCJwdyIsInBob25lX251bWJlcl92ZXJpZmllZCIsImFjY3RfZ250IiwibG9jYWxlIiwiYWNjdCIsImFnZSIsImFjY291bnRfdmVyaWZpZWQiLCJhZmZpbml0eSJdLCJkYXQiOnsibGlkIjoiQU9qMlFrd0kxcTN0QXpkekg2SmFvdyIsImMiOiJlYzEifSwiaXNzIjoiaHR0cHM6XC9cL2F1dGgucmlvdGdhbWVzLmNvbSIsImV4cCI6MTY1ODA3NTM5MiwiaWF0IjoxNjU4MDcxNzkyLCJqdGkiOiJ0Tnd1U2ZTZ0tPbyIsImNpZCI6InBsYXktdmFsb3JhbnQtd2ViLXByb2QifQ.GgVWezksSNj0wbOO_HvxtKoarv3zNssFaGyP-BLtQ9SL2o-Q_alWW5RmNssqCeaTWDipuRc7bnNa-tznfnxHuwR_euSIoLkhjiU7WaI5iLoS6JUmKyl3-4VGecvpQVhuqV_fAy29vzT0tWsBV7Tn_BEQ-dYazZkonyjXrS0mRv0&scope=account+openid&iss=https%3A%2F%2Fauth.riotgames.com&id_token=eyJraWQiOiJzMSIsImFsZyI6IlJTMjU2In0.eyJhdF9oYXNoIjoiTEJWSlFKdGNLeUxrdTMwZTktVmhpZyIsInN1YiI6IjZjYjcyNGU5LTYyNDEtNWY4MC1hNzg1LWExMzdhMWI1MGU2OCIsImNvdW50cnkiOiJpdGEiLCJjb3VudHJ5X2F0IjoxNjU4MDcxNzg4MDAwLCJhbXIiOlsic2lnbnVwIl0sImlzcyI6Imh0dHBzOlwvXC9hdXRoLnJpb3RnYW1lcy5jb20iLCJsb2NhbGUiOiJpdF9JVCIsIm5vbmNlIjoiTnpjc01UQTJMREV3TUN3eCIsImF1ZCI6InBsYXktdmFsb3JhbnQtd2ViLXByb2QiLCJhY3IiOiJ1cm46cmlvdDpnb2xkIiwicGxheWVyX2xvY2FsZSI6Iml0IiwiZXhwIjoxNjU4MTU4MTkyLCJpYXQiOjE2NTgwNzE3OTIsImFjY3QiOnsiZ2FtZV9uYW1lIjpudWxsLCJ0YWdfbGluZSI6bnVsbH0sImFnZSI6MjIsImp0aSI6InMzUVZDaFp1Nk9NIiwibG9naW5fY291bnRyeSI6Iml0YSJ9.aV0LNHPqSTWxWrG-wt0Ip33yB3QXn6Z8SmEGe9NrMukqbdCUESjniaAOIELBAv-rFkXCpcIZ2uu8hl5vZaf954LpCAk0XVxdDvfVMtzNE_bBlTNZvCpiyskuTTRgS_kZ33Md3w1keBpiXKWN0kIjchbTfzu6LjxdcKZh--5i4cA&state=c2lnbnVw&token_type=Bearer&session_state=vYOF53Fzd3z-MeEpPAKgd0YeXA7-9PB0kZ2dBVfme4Y.NIsfZqvWylD1xun5D6iGZw&expires_in=3600 line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+1658071796531	Marionette	INFO	Stopped listening on port 58387
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658072090827	geckodriver	INFO	Listening on 127.0.0.1:57423
+1658072093846	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "57424" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofilemUBkAR"
+1658072094190	Marionette	INFO	Marionette enabled
+1658072094196	Marionette	INFO	Listening on port 57432
+WebDriver BiDi listening on ws://localhost:57424
+Read port: 57432
+1658072094419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofilemUBkAR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57424/devtools/browser/c7abf276-f220-49a5-8dd2-77a85430b50e
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+1658072140443	geckodriver	INFO	Listening on 127.0.0.1:57515
+1658072143472	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "57516" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileOYaRs0"
+1658072143778	Marionette	INFO	Marionette enabled
+1658072143783	Marionette	INFO	Listening on port 57527
+WebDriver BiDi listening on ws://localhost:57516
+Read port: 57527
+1658072143882	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileOYaRs0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57516/devtools/browser/e5719e70-58bd-4b3b-9fb7-e6a9638dd2b3
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+1658072184580	Marionette	INFO	Stopped listening on port 57527
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658072282216	geckodriver	INFO	Listening on 127.0.0.1:63451
+1658072285236	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "63452" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofilei2xrE5"
+1658072285600	Marionette	INFO	Marionette enabled
+1658072285604	Marionette	INFO	Listening on port 63462
+WebDriver BiDi listening on ws://localhost:63452
+Read port: 63462
+1658072285756	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofilei2xrE5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63452/devtools/browser/9b2f233d-976d-4f1f-866f-cfce6e42ff45
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+1658072295055	Marionette	INFO	Stopped listening on port 63462
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658072413395	geckodriver	INFO	Listening on 127.0.0.1:64003
+1658072416419	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "64004" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileZ3oFJF"
+1658072416770	Marionette	INFO	Marionette enabled
+1658072416776	Marionette	INFO	Listening on port 64013
+WebDriver BiDi listening on ws://localhost:64004
+Read port: 64013
+1658072416933	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileZ3oFJF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64004/devtools/browser/09f25bbf-27e5-47f0-8ed9-a947933b9260
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+1658072507121	geckodriver	INFO	Listening on 127.0.0.1:60828
+1658072510147	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "60829" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofile1GEkBs"
+1658072510431	Marionette	INFO	Marionette enabled
+1658072510436	Marionette	INFO	Listening on port 60840
+WebDriver BiDi listening on ws://localhost:60829
+Read port: 60840
+1658072510529	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofile1GEkBs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60829/devtools/browser/f07f5270-fa3f-49bc-802c-0d9227bb7863
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+1658072725682	geckodriver	INFO	Listening on 127.0.0.1:62775
+1658072728718	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "62776" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofilelLZ9xG"
+1658072729004	Marionette	INFO	Marionette enabled
+1658072729008	Marionette	INFO	Listening on port 62785
+WebDriver BiDi listening on ws://localhost:62776
+Read port: 62785
+1658072729102	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofilelLZ9xG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62776/devtools/browser/88d03d0f-e9b1-419d-ad7c-3bcf25e3a35d
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+1658073223891	geckodriver	INFO	Listening on 127.0.0.1:63238
+1658073226924	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "63239" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileSwrqZD"
+1658073227199	Marionette	INFO	Marionette enabled
+1658073227203	Marionette	INFO	Listening on port 63249
+WebDriver BiDi listening on ws://localhost:63239
+Read port: 63249
+1658073227296	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658150953490	geckodriver	INFO	Listening on 127.0.0.1:60129
+1658150956526	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "60130" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileigLbmu"
+1658150956855	Marionette	INFO	Marionette enabled
+1658150956860	Marionette	INFO	Listening on port 60140
+Read port: 60140
+WebDriver BiDi listening on ws://localhost:60130
+1658150956981	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileigLbmu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60130/devtools/browser/e29e9aeb-b5fb-44a8-b57a-09304319003c
+1658150964301	Marionette	INFO	Stopped listening on port 60140
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658151026972	geckodriver	INFO	Listening on 127.0.0.1:64276
+1658151030007	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "64277" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileqIyzyr"
+1658151030312	Marionette	INFO	Marionette enabled
+1658151030317	Marionette	INFO	Listening on port 64286
+WebDriver BiDi listening on ws://localhost:64277
+Read port: 64286
+1658151030417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileqIyzyr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64277/devtools/browser/d56f37d8-cdce-40fc-8309-8cf69ce07d28
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+1658151043205	Marionette	INFO	Stopped listening on port 64286
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658151099122	geckodriver	INFO	Listening on 127.0.0.1:52993
+1658151102154	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "52994" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofilecuhgYL"
+1658151102529	Marionette	INFO	Marionette enabled
+1658151102534	Marionette	INFO	Listening on port 54910
+WebDriver BiDi listening on ws://localhost:52994
+Read port: 54910
+1658151102651	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofilecuhgYL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52994/devtools/browser/f3980004-36d3-4f5f-90c3-c29a65a3768f
+1658151110429	Marionette	INFO	Stopped listening on port 54910
+[Parent 13720, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658152634671	geckodriver	INFO	Listening on 127.0.0.1:53764
+1658152637704	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "53765" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileQHjHPF"
+1658152637998	Marionette	INFO	Marionette enabled
+1658152638003	Marionette	INFO	Listening on port 53775
+WebDriver BiDi listening on ws://localhost:53765
+Read port: 53775
+1658152638119	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileQHjHPF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53765/devtools/browser/a57ae730-a7c6-4573-80b6-c68fb8bf617d
+1658152647787	Marionette	INFO	Stopped listening on port 53775
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658152649278	geckodriver	INFO	Listening on 127.0.0.1:53814
+1658152652312	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "53815" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileydesXw"
+1658152652609	Marionette	INFO	Marionette enabled
+1658152652613	Marionette	INFO	Listening on port 53824
+WebDriver BiDi listening on ws://localhost:53815
+Read port: 53824
+1658152652705	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileydesXw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53815/devtools/browser/e0d2bfe0-98fd-4af1-817f-d3dc070765cb
+1658152660046	Marionette	INFO	Stopped listening on port 53824
+[Parent 9344, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658152727611	geckodriver	INFO	Listening on 127.0.0.1:62128
+1658152730640	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "62129" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileJuYbHk"
+1658152730930	Marionette	INFO	Marionette enabled
+1658152730936	Marionette	INFO	Listening on port 62138
+WebDriver BiDi listening on ws://localhost:62129
+Read port: 62138
+1658152731029	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileJuYbHk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62129/devtools/browser/e5adb273-96d8-4c7e-8a2d-4ee3cecf1b0a
+1658152742240	Marionette	INFO	Stopped listening on port 62138
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658153029404	geckodriver	INFO	Listening on 127.0.0.1:51329
+1658153032432	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "51330" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileGAfNg1"
+1658153032843	Marionette	INFO	Marionette enabled
+1658153032848	Marionette	INFO	Listening on port 51340
+WebDriver BiDi listening on ws://localhost:51330
+Read port: 51340
+1658153032971	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileGAfNg1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51330/devtools/browser/c7101f68-dd61-4f55-aefc-c8e37830bfda
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+1658153051935	Marionette	INFO	Stopped listening on port 51340
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 7012, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1658153073916	geckodriver	INFO	Listening on 127.0.0.1:60866
+1658153076952	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "60867" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileLGlSHD"
+1658153077235	Marionette	INFO	Marionette enabled
+1658153077239	Marionette	INFO	Listening on port 60876
+WebDriver BiDi listening on ws://localhost:60867
+Read port: 60876
+1658153077339	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofileLGlSHD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60867/devtools/browser/f64fa7cc-2cc6-4f6d-a954-d0c718c621b4
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+1658153087081	Marionette	INFO	Stopped listening on port 60876
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1658153093176	geckodriver	INFO	Listening on 127.0.0.1:60913
+1658153096191	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "60914" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofilemSWvZE"
+1658153096476	Marionette	INFO	Marionette enabled
+1658153096480	Marionette	INFO	Listening on port 60923
+WebDriver BiDi listening on ws://localhost:60914
+Read port: 60923
+1658153096583	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edoar\\AppData\\Local\\Temp\\rust_mozprofilemSWvZE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60914/devtools/browser/6054b4ec-a053-4327-860d-fa9356a439f1
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.riotgames.com"
+JavaScript error: https://playvalorant.com/it-it/download/ line 1 > injectedScript, line 1: TypeError: can't access property "account", window.RiotBar is undefined
+1658153130262	Marionette	INFO	Stopped listening on port 60923
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
