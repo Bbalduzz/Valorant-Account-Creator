@@ -1,5 +1,5 @@
 ## Valorant Account Creator GUI
-This is a Pytho GUI application useful to create new valorant accounts in a matter of seconds with random credentials.
+This is a Python GUI application useful to create new valorant accounts in a matter of seconds with random credentials.
 
 ### About
 - GUI application: easy to use and good looking
