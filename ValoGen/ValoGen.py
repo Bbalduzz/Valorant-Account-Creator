@@ -36,6 +36,7 @@ def generate_password(entry):
     entry.insert(0, password)
 
 window = Tk()
+window.iconbitmap("assets/ValoGen.ico")
 window.title('ValoGen | Valorant Account Generator')
 window.geometry("580x324")
 window.configure(bg = "#232429")
@@ -263,5 +264,4 @@ canvas.create_text(
     font=("Poppins ExtraBold", 32 * -1)
 )
 window.resizable(False, False)
-window.iconbitmap("assets/ValoGen.ico")
 window.mainloop()
