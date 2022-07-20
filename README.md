@@ -4,7 +4,7 @@ This is a Python GUI application useful to create new valorant accounts in a mat
 ### About
 - GUI application and exeguible: easy to use and good looking
 - it uses the selenium module
-- the accounts' credentials are stored in a generated file called "Accounts.json"
+- the accounts' credentials are stored in a generated file called "Credentials.txt"
 - tested and created for Firefox, feel free to modify it for Chromium based browsers
 
 ### How to use
