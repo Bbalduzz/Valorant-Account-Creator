@@ -31,6 +31,7 @@ This is a Python GUI application useful to create new valorant accounts in a mat
 
 ## Pictures
 <a href="https://imgur.com/SwztIJR"><img src="https://i.imgur.com/SwztIJR.png" title="ValoGen" /></a>
+
 https://user-images.githubusercontent.com/81587335/180057704-a0765010-e8bd-47b0-9ab0-6313f38710ea.mp4
 
 
