@@ -31,7 +31,7 @@ This is a Python GUI application useful to create new valorant accounts in a mat
 
 ## Pictures
 <a href="https://imgur.com/SwztIJR"><img src="https://i.imgur.com/SwztIJR.png" title="ValoGen" /></a>
-[ValoGen](https://drive.google.com/file/d/1LIbrJw4TnFJnEj1pOpdh0GUJCFNiMrVz/view?usp=sharing)
+![ValoGen](https://drive.google.com/file/d/1LIbrJw4TnFJnEj1pOpdh0GUJCFNiMrVz/view?usp=sharing)
 
 ### Todo
 - Add ability to autocomplete the hCaptcha test
