@@ -2,7 +2,7 @@
 This is a Python GUI application useful to create new valorant accounts in a matter of seconds with random credentials.
 
 ### About
-- GUI application: easy to use and good looking
+- GUI application and exeguible: easy to use and good looking
 - it uses the selenium module
 - the accounts' credentials are stored in a generated file called "Accounts.json"
 - tested and created for Firefox, feel free to modify it for Chromium based browsers
