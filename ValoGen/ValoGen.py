@@ -147,6 +147,13 @@ def ValoGen():
     bot = RiotGen()
     bot.login()
     print('complete the reCaptcha test')
+    
+    with open('Credentials.txt','a') as handler:
+        handler.write(f'{datetime.now()}\n')
+        handler.write(f'Email: {email}\n')
+        handler.write(f'Username: {username}\n')
+        handler.write(f'Password: {password}\n')
+        handler.write('---------------------------\n')
 
     def write_json(new_data, filename='accounts.json'):
         with open(filename, 'r+') as file:
