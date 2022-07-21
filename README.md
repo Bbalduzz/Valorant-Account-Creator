@@ -1,4 +1,7 @@
-## Valorant Account Creator GUI
+# Valorant Account Generator GUI
+
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+
 This is a Python GUI application useful to create new valorant accounts in a matter of seconds with random credentials.
 
 ### About
