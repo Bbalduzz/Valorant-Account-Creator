@@ -8,6 +8,7 @@ This is a Python GUI application useful to create new valorant accounts in a mat
 - GUI application and exeguible: easy to use and good looking
 - it uses the selenium module
 - the accounts' credentials are stored in a generated file called "Credentials.txt"
+- Added the abilty to solve hcaptcha tests in the premium version
 - tested and created for Firefox, feel free to modify it for Chromium based browsers
 
 ## ValoGen
