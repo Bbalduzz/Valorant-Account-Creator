@@ -54,4 +54,6 @@ https://user-images.githubusercontent.com/81587335/180057704-a0765010-e8bd-47b0-
 
 https://user-images.githubusercontent.com/81587335/183093508-05e672f8-dff4-4f73-8faf-9fea9a0a2664.mp4
 
-
+## Support Me
+- if u want to buy me a coffee: [☕️](https://www.buymeacoffee.com/Bbalduzz)
+- Consider leaving a star :)
