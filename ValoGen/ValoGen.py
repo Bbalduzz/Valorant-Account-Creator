@@ -1,3 +1,5 @@
+# == this is not the Premium version ==
+# If u want to see the premium version join my ds: https://discord.gg/6AEdmkXUbS
 from pathlib import Path
 from tkinter import *
 import pyperclip as pc
