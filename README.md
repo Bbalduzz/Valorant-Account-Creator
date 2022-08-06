@@ -4,6 +4,8 @@
 
 This is a Python GUI application useful to create new valorant accounts in a matter of seconds with random credentials.
 
+🎈 If have any question or problem join the discord: [https://discord.gg/6AEdmkXUbS](https://discord.gg/6AEdmkXUbS)
+
 ### About
 - GUI application and exeguible: easy to use and good looking
 - it uses the selenium module
@@ -56,4 +58,4 @@ https://user-images.githubusercontent.com/81587335/183093508-05e672f8-dff4-4f73-
 
 ## Support Me
 - if u want to buy me a coffee: [☕️](https://www.buymeacoffee.com/Bbalduzz)
-- Consider leaving a star :)
+- Consider starring this project ⭐️ :)
