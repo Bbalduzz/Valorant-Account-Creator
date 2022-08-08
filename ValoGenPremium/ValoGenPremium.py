@@ -24,10 +24,10 @@ class RiotGen():
         options.binary_location = r"/Applications/FirefoxDeveloperEdition.app/Contents/MacOS/firefox"
         options.headless = True
         options.add_argument('--window-size=1920,1200')
-        DRIVER_PATH = '/Users/edoardo/Documents/projects/Valorant-Account-Creator/geckodriver'
+        DRIVER_PATH = './geckodriver' #full path to geckodriver
         self.driver = webdriver.Firefox(options=options, executable_path=DRIVER_PATH)
     def login(self):
-        extension_path = '/Users/edoardo/Documents/projects/Valorant-Account-Creator/noptcha-0.1.8.xpi'
+        extension_path = './noptcha-0.1.8.xpi'
         self.driver.install_addon(extension_path, temporary=True)
         self.driver.get(BASE_URL)
         sleep(2)
