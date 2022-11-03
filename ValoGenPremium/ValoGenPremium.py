@@ -27,7 +27,7 @@ class RiotGen():
         DRIVER_PATH = './geckodriver' #full path to geckodriver
         self.driver = webdriver.Firefox(options=options, executable_path=DRIVER_PATH)
     def login(self):
-        extension_path = './noptcha-0.1.8.xpi'
+        extension_path = './noptcha-0.2.5.xpi'
         self.driver.install_addon(extension_path, temporary=True)
         self.driver.get(BASE_URL)
         sleep(2)
