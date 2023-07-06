@@ -30,7 +30,7 @@ class bcolors:
     RESET = '\033[0m'
 
 def update_crx():
-    crx_page_url = "https://chrome.google.com/webstore/detail/hektcaptcha-hcaptcha-solv/bpfdbfnkjelhloljelooneehdalcmljb" # Replace with the desired Chrome extension URL
+    crx_page_url = "https://chrome.google.com/webstore/detail/hektcaptcha-hcaptcha-solv/bpfdbfnkjelhloljelooneehdalcmljb" # BEST ONE so far
     ext_id = crx_page_url.split('/')[-1]
     download_link = f"https://clients2.google.com/service/update2/crx?response=redirect&os=crx&arch=x86-64&nacl_arch=x86-64&prod=chromecrx&prodchannel=unknown&prodversion=88.0.4324.150&acceptformat=crx2,crx3&x=id%3D{ext_id}%26uc"
     with open('solver.crx', 'wb') as file:
