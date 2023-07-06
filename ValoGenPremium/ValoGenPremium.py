@@ -1,62 +1,94 @@
-# I uploaded the code of the Premium sice it is slightly faster than thr GUI
-import random
-import string
-from datetime import datetime
-from selenium import webdriver
+from selenium.webdriver.firefox.service import Service as FirefoxService
+from selenium.common.exceptions import StaleElementReferenceException
+from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.firefox import GeckoDriverManager
+from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
+from selenium import webdriver
+from datetime import datetime
+import string, re, requests
+from random import choices
 from time import sleep
-import json
 import warnings
+import json
 warnings.filterwarnings("ignore", category=DeprecationWarning)
-
-all_for_email = string.ascii_letters + string.ascii_lowercase + string.ascii_uppercase + string.digits
-email = "".join(random.sample(all_for_email, 10)) + '@gmail.com'
-username = "".join(random.sample(string.ascii_letters, 8))
-all_for_password = all_for_email + string.punctuation
-password = "".join(random.sample(all_for_password, 8))
 
 BASE_URL = 'https://auth.riotgames.com/login#client_id=play-valorant-web-prod&nonce=NzcsMTA2LDEwMCwx&prompt=signup&redirect_uri=https%3A%2F%2Fplayvalorant.com%2Fopt_in%2F%3Fredirect%3D%2Fdownload%2F&response_type=token%20id_token&scope=account%20openid&state=c2lnbnVw&ui_locales=it'
 
+class bcolors:
+    BLACK = '\033[30m'
+    RED = '\033[31m'
+    GREEN = '\033[32m'
+    YELLOW = '\033[33m'
+    BLUE = '\033[34m'
+    MAGENTA = '\033[35m'
+    CYAN = '\033[36m'
+    WHITE = '\033[37m'
+    UNDERLINE = '\033[4m'
+    RESET = '\033[0m'
+
+def update_noptcha_xpi():
+    xpi_page_url = "https://addons.mozilla.org/en-US/firefox/addon/noptcha/" # u can actually put any extension u want here
+    page = requests.get(xpi_page_url)
+    link = re.findall(r'"InstallButtonWrapper-download-link" href="([^"]+)"', page.text)[0]
+    with open('noptcha.xpi', 'wb') as file:
+        addon_binary = requests.get(link).content
+        file.write(addon_binary)
+    print(f"[*] hcaptcha solver updated {bcolors.MAGENTA}[{bcolors.RESET}{link.split('-')[1].removesuffix('.xpi')}{bcolors.MAGENTA}]{bcolors.RESET}")
+
 class RiotGen():
     def __init__(self):
+        update_noptcha_xpi()
+        self.config = json.load(open('./config.json'))
         options = Options()
-        options.binary_location = r"/Applications/FirefoxDeveloperEdition.app/Contents/MacOS/firefox"
-        options.headless = True
-        options.add_argument('--window-size=1920,1200')
-        DRIVER_PATH = './geckodriver' #full path to geckodriver
-        self.driver = webdriver.Firefox(options=options, executable_path=DRIVER_PATH)
+        options.binary_location = self.config["firefox_binary_location"]
+        options.headless        = False
+        self.driver             = webdriver.Firefox(options, service=FirefoxService(GeckoDriverManager().install()))
+        self.email              = ''.join(choices('abcdefghijklmnopqrstuvwxyz1234567890', k=6)) + "@randommail.com"
+        self.name               = ''.join(choices('abcdefghijklmnopqrstuvwxyz1234567890', k=7))
+        self.password           = ''.join(choices('abcdefghijklmnopqrstuvwxyz1234567890', k=8))
+
     def login(self):
-        extension_path = './noptcha-0.3.0.xpi'
-        self.driver.install_addon(extension_path, temporary=True)
-        self.driver.get(BASE_URL)
-        sleep(2)
-        # insert email
-        self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div[1]/div/input').send_keys(email)
+        try:
+            extension_path = './noptcha.xpi' # 50 hcaptchas  per day based on the IP :/
+            self.driver.install_addon(extension_path, temporary=True)
+            self.driver.get(BASE_URL)
+            sleep(2)
+            self.insert_field('/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div[1]/div/input', self.email)
+            self.insert_field('/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div/div[1]/input', '01012000')
+            self.insert_field('/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div/div/input', self.name)
+            self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div[1]/div/input').send_keys(self.password)
+            self.insert_field('/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div[3]/div/input', self.password)
+            print('[*] solving the hcaptcha')
+
+            # TODO: improve hcaptcha solved recognition
+            # Wait for the rotating SVG element to appear
+            wait = WebDriverWait(self.driver, 60)
+            rotating_svg = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '.spin.mobile-button.mobile-button__submit--loading')))
+            # Check if the rotating SVG element is displayed
+            if rotating_svg.is_displayed():
+                print(f'{bcolors.GREEN}[+]{bcolors.RESET}{bcolors.CYAN} Account Created:{bcolors.RESET} {self.name},{self.password}')
+            else:
+                print('hcaptcha challenge failed. Retring...')
+                next_btn = self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/button')
+                self.driver.execute_script("arguments[0].click();", next_btn)
+                # print(f'{bcolors.RED}[-]{bcolors.RESET}{bcolors.CYAN} Failed to Create Account: hcaptcha challenge not solved.{bcolors.RESET}')
+
+            with open('Credentials.txt','a') as handler:
+                handler.write(f'{datetime.now()}\n')
+                handler.write(f'Email: {self.email}\n')
+                handler.write(f'Username: {self.name}\n')
+                handler.write(f'Password: {self.password}\n')
+                handler.write('---------------------------\n')
+
+        except Exception as e:
+            print(f'{bcolors.RED}[-]{bcolors.RESET}{bcolors.CYAN} Failed to Create Account {bcolors.RESET}, reason:', e)
+
+    def insert_field(self, value, arg):
+        self.driver.find_element(by=By.XPATH, value=value).send_keys(arg)
         next_btn = self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/button')
         self.driver.execute_script("arguments[0].click();", next_btn)
-        # insert date of birth
-        self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div/div[1]/input').send_keys('01012000')
-        next_btn = self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/button')
-        self.driver.execute_script("arguments[0].click();", next_btn)
-        # insert username
-        self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div/div/input').send_keys(username)
-        next_btn = self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/button')
-        self.driver.execute_script("arguments[0].click();", next_btn)
-        # insert passoword
-        self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div[1]/div/input').send_keys(password)
-        # confirm password
-        self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div[3]/div/input').send_keys(password)
-        next_btn = self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/button')
-        self.driver.execute_script("arguments[0].click();", next_btn)
-        print('hCaptcha bypassed!')
 
 bot = RiotGen()
 bot.login()
-
-with open('Credentials.txt','a') as handler:
-    handler.write(f'{datetime.now()}\n')
-    handler.write(f'Email: {email}\n')
-    handler.write(f'Username: {username}\n')
-    handler.write(f'Password: {password}\n')
-    handler.write('---------------------------\n')
