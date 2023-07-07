@@ -28,18 +28,20 @@ class bcolors:
     UNDERLINE = '\033[4m'
     RESET = '\033[0m'
 
-def update_noptcha_xpi():
-    xpi_page_url = "https://addons.mozilla.org/en-US/firefox/addon/noptcha/" # u can actually put any extension u want here
-    page = requests.get(xpi_page_url)
-    link = re.findall(r'"InstallButtonWrapper-download-link" href="([^"]+)"', page.text)[0]
-    with open('noptcha.xpi', 'wb') as file:
-        addon_binary = requests.get(link).content
-        file.write(addon_binary)
-    print(f"[*] hcaptcha solver updated {bcolors.MAGENTA}[{bcolors.RESET}{link.split('-')[1].removesuffix('.xpi')}{bcolors.MAGENTA}]{bcolors.RESET}")
+def update_xpi():
+    owner = "Wikidepia" # credits to this guy
+    repo = "hektCaptcha-extension"
+    api_url = f"https://api.github.com/repos/{owner}/{repo}/releases"
+    releases = requests.get(api_url).json()
+    tag_name = releases[0]["tag_name"]
+    download_url = f"https://github.com/{owner}/{repo}/releases/download/{tag_name}/hektCaptcha-{tag_name}.firefox.xpi" # firefox extension doesn't work so well
+    with open("solver.xpi", "wb") as file:
+        file.write(requests.get(download_url).content)
+    print(f"[*] hcaptcha solver updated {bcolors.MAGENTA}[{bcolors.RESET}{tag_name}{bcolors.MAGENTA}]{bcolors.RESET}")
 
 class RiotGen():
     def __init__(self):
-        update_noptcha_xpi()
+        update_xpi()
         self.config = json.load(open('./config.json'))
         options = Options()
         options.binary_location = self.config["firefox_binary_location"]
@@ -51,7 +53,7 @@ class RiotGen():
 
     def login(self):
         try:
-            extension_path = './noptcha.xpi' # 50 hcaptchas  per day based on the IP :/
+            extension_path = './solver.xpi' # 50 hcaptchas  per day based on the IP :/
             self.driver.install_addon(extension_path, temporary=True)
             self.driver.get(BASE_URL)
             sleep(2)
