@@ -53,7 +53,7 @@ class RiotGen():
 
     def login(self):
         try:
-            extension_path = './solver.xpi' # 50 hcaptchas  per day based on the IP :/
+            extension_path = './solver.xpi'
             self.driver.install_addon(extension_path, temporary=True)
             self.driver.get(BASE_URL)
             sleep(2)
