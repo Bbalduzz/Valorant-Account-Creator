@@ -45,7 +45,7 @@ class RiotGen():
         options.add_extension('solver.crx')
         # self.config             = json.load(open('./config.json'))
         # options.binary_location = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
-        options.headless        = True
+        options.headless        = False # I suggest keeping this to False, the window is going to be shown but it's faster
         self.driver             = webdriver.Chrome(options=options, service=ChromiumService(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()))
         self.email              = ''.join(choices('abcdefghijklmnopqrstuvwxyz1234567890', k=6)) + "@gmail.com"
         self.name               = ''.join(choices('abcdefghijklmnopqrstuvwxyz1234567890', k=7))
@@ -62,14 +62,12 @@ class RiotGen():
             self.insert_field('/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/div[2]/div/div[3]/div/input', self.password)
             print('[*] solving the hcaptcha')
 
-            # TODO: improve
             not_solved = True
             while not_solved:
-                sleep(30)
                 try:
-                    loding_success = self.driver.find_element(By.XPATH, '/html/body/div[2]/div/div/div[2]/div/div/div/div[2]/div/svg')
-                    not_solved = False
-                    print(f'{bcolors.GREEN}[+]{bcolors.RESET}{bcolors.CYAN} Account Created:{bcolors.RESET} {self.name},{self.password}')
+                    if self.driver.current_url != BASE_URL:
+                        print(f'{bcolors.GREEN}[+]{bcolors.RESET}{bcolors.CYAN} Account Created:{bcolors.RESET} {self.name},{self.password}')
+                        not_solved = False
                 except Exception:
                     print("hcaptcha test failed. Retrying...")
                     next_btn = self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/button')
