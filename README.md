@@ -3,6 +3,7 @@
 [![GPLv3 License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 This is a Python GUI application useful to create new valorant accounts in a matter of seconds with random credentials.
+I suggest you use the ValoGenPremium CLI (`/ValoGenPremium` directory)
 
 🎈 If have any question or problem join the discord: [https://discord.gg/6AEdmkXUbS](https://discord.gg/6AEdmkXUbS)
 
@@ -55,6 +56,25 @@ https://user-images.githubusercontent.com/81587335/180057704-a0765010-e8bd-47b0-
 <a href="https://imgur.com/SnWArab"><img src="https://i.imgur.com/SnWArab.png" title="source: imgur.com" /></a>
 
 https://user-images.githubusercontent.com/81587335/183093508-05e672f8-dff4-4f73-8faf-9fea9a0a2664.mp4
+
+## ValoGenPremium CLI
+### Features
+- both for Firefox and Chrome (_Chrome works better_)
+- automatic hcaptcha solver
+- automatic crx / xpi updater
+- automatic driver install
+- hcaptcha solved recognition
+
+### How to use
+- download dir `/ValoGenPremium`
+- download the script u want
+- run with `python3`
+
+### Demo
+
+https://github.com/Bbalduzz/Valorant-Account-Creator/assets/81587335/88d41cd4-3368-4807-8fb7-f25111cc3c59
+
+
 
 ## Support Me
 - if u want to buy me a coffee: [☕️](https://www.buymeacoffee.com/Bbalduzz)
