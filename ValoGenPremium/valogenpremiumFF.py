@@ -14,6 +14,8 @@ import warnings
 import json
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
+from names import generate_name
+
 BASE_URL = 'https://auth.riotgames.com/login#client_id=play-valorant-web-prod&nonce=NzcsMTA2LDEwMCwx&prompt=signup&redirect_uri=https%3A%2F%2Fplayvalorant.com%2Fopt_in%2F%3Fredirect%3D%2Fdownload%2F&response_type=token%20id_token&scope=account%20openid&state=c2lnbnVw&ui_locales=it'
 
 class bcolors:
@@ -48,7 +50,7 @@ class RiotGen():
         options.headless        = False
         self.driver             = webdriver.Firefox(options, service=FirefoxService(GeckoDriverManager().install()))
         self.email              = ''.join(choices('abcdefghijklmnopqrstuvwxyz1234567890', k=6)) + "@randommail.com"
-        self.name               = ''.join(choices('abcdefghijklmnopqrstuvwxyz1234567890', k=7))
+        self.name               = generate_name()
         self.password           = ''.join(choices('abcdefghijklmnopqrstuvwxyz1234567890', k=8))
 
     def login(self):
