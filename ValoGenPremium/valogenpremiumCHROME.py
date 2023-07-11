@@ -15,6 +15,8 @@ import warnings
 import json
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
+from names import generate_name
+
 BASE_URL = 'https://auth.riotgames.com/login#client_id=play-valorant-web-prod&nonce=NzcsMTA2LDEwMCwx&prompt=signup&redirect_uri=https%3A%2F%2Fplayvalorant.com%2Fopt_in%2F%3Fredirect%3D%2Fdownload%2F&response_type=token%20id_token&scope=account%20openid&state=c2lnbnVw&ui_locales=it'
 
 class bcolors:
@@ -44,12 +46,12 @@ class RiotGen():
         options = webdriver.ChromeOptions()
         options.add_extension('solver.crx')
         # self.config             = json.load(open('./config.json'))
-        # options.binary_location = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
-        options.headless        = False # I suggest keeping this to False, the window is going to be shown but it's faster
-        self.driver             = webdriver.Chrome(options=options, service=ChromiumService(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()))
-        self.email              = ''.join(choices('abcdefghijklmnopqrstuvwxyz1234567890', k=6)) + "@gmail.com"
-        self.name               = ''.join(choices('abcdefghijklmnopqrstuvwxyz1234567890', k=7))
-        self.password           = ''.join(choices('abcdefghijklmnopqrstuvwxyz1234567890', k=8))
+        # options.binary_location = self.config["chrome_binary_location"]
+        options.headless         = False # I suggest keeping this to False, the window is going to be shown but it's faster
+        self.driver              = webdriver.Chrome(options=options, service=ChromiumService(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()))
+        self.email               = ''.join(choices('abcdefghijklmnopqrstuvwxyz1234567890', k=6)) + "@gmail.com"
+        self.name                = generate_name()
+        self.password            = ''.join(choices('abcdefghijklmnopqrstuvwxyz1234567890', k=8))
 
     def login(self):
         try:
