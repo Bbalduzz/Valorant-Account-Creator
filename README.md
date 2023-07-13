@@ -1,4 +1,5 @@
 # Valorant Account Generator GUI
+### The releases are outdated, use the CLI in `/ValoGenPremium`
 
 [![GPLv3 License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
