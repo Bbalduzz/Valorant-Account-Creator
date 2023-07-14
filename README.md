@@ -18,6 +18,7 @@
 3. UI more customizable
 4. improve hcaptcha solver
     - since already the solver is local (uses local gpu and cpu power), it could be improved by getting rid of the extension and just execute locally the recognition
+5. add more browsers (ex. Brave, Safari, Arc etc.. even tho they are mostly based on chromium) 
 
 ## ValoGen
 ### Feautures
