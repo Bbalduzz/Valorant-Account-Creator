@@ -71,7 +71,7 @@ class RiotGen():
                 try:
                     if self.driver.current_url != BASE_URL:
                         # print(f'{bcolors.GREEN}[+]{bcolors.RESET}{bcolors.CYAN} Account Created:{bcolors.RESET} {self.name},{self.password}')
-                        return self.name, self.password, self.email
+                        return self.email, self.name, self.password
                 except Exception:
                     print("hcaptcha test failed. Retrying...")
                     next_btn = self.driver.find_element(by=By.XPATH, value='/html/body/div[2]/div/div/div[2]/div/div[2]/form/div/button')
