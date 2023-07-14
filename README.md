@@ -12,6 +12,13 @@
 - uses the selenium module and PyQt6
 - both for firex and chrome
 
+### Future additions (#todo)
+1. merge chrome.py and firefox.py into a single script
+2. better hcaptcha recognition
+3. UI more customizable
+4. improve hcaptcha solver
+    - since already the solver is local (uses local gpu and cpu power), it could be improved by getting rid of the extension and just execute locally the recognition
+
 ## ValoGen
 ### Feautures
 - Modern GUI
