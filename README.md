@@ -4,7 +4,7 @@
 [![GPLv3 License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 This is a Python GUI application useful to create new valorant accounts in a matter of seconds with random credentials.
-I suggest you use the ValoGenPremium CLI (`/ValoGenPremium` directory)
+**In the ValoGen directory there is the GUI**
 
 🎈 If have any question or problem join the discord: [https://discord.gg/6AEdmkXUbS](https://discord.gg/6AEdmkXUbS)
 
