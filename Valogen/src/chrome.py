@@ -79,8 +79,8 @@ class RiotGen():
             while not_solved:
                 try:
                     if self.driver.current_url != BASE_URL:
-                        print(f'{bcolors.GREEN}[+]{bcolors.RESET}{bcolors.CYAN} Account Created:{bcolors.RESET} {self.name},{self.password}')
-                        return self.name, self.password, self.email
+                      # print(f'{bcolors.GREEN}[+]{bcolors.RESET}{bcolors.CYAN} Account Created:{bcolors.RESET} {self.name},{self.password}')
+                        return self.email, self.name, self.password
                         # not_solved = False
                 except Exception:
                     print("hcaptcha test failed. Retrying...")
