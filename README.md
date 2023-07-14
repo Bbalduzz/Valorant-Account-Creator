@@ -4,7 +4,7 @@
 
 [![GPLv3 License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-🎈 If have any question or problem join the discord: [https://discord.gg/6AEdmkXUbS](https://discord.gg/6AEdmkXUbS)
+🎈 If u have any question or problem join the discord: [https://discord.gg/6AEdmkXUbS](https://discord.gg/6AEdmkXUbS)
 
 ### About
 - os-agnostic
