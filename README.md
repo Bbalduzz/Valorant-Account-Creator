@@ -9,7 +9,7 @@
 ### About
 - os-agnostic
 - GUI and CLI application to generate 1 valorant account at a time
-- uses the selenium module and PyQt6
+- uses the selenium module and PyQt6 (https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/PyQt6)
 - both for firex and chrome
 
 ### Future additions (#todo)
