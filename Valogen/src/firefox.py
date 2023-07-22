@@ -1,17 +1,15 @@
 from selenium.webdriver.firefox.service import Service as FirefoxService
-from selenium.common.exceptions import StaleElementReferenceException
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.firefox import GeckoDriverManager
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
 from selenium import webdriver
-from datetime import datetime
-import string, re, requests
-from random import choices, randint, choice
+import requests
+from random import choices
 from time import sleep
 import warnings
 import json
+import os
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 from .names import generate_name
@@ -35,20 +33,23 @@ def update_xpi():
     repo = "hektCaptcha-extension"
     api_url = f"https://api.github.com/repos/{owner}/{repo}/releases"
     releases = requests.get(api_url).json()
-    tag_name = releases[0]["tag_name"]
-    download_url = f"https://github.com/{owner}/{repo}/releases/download/{tag_name}/hektCaptcha-{tag_name}.firefox.xpi"
-    with open("solver.xpi", "wb") as file:
-        file.write(requests.get(download_url).content)
-    print(f"[*] hcaptcha solver updated {bcolors.MAGENTA}[{bcolors.RESET}{tag_name}{bcolors.MAGENTA}]{bcolors.RESET}")
-
+    for release in releases:
+        if not release['prerelease']:
+            tag_name = release["tag_name"]
+            download_url = f"https://github.com/{owner}/{repo}/releases/download/{tag_name}/hektCaptcha-{tag_name}.firefox.xpi"
+            with open("solver.xpi", "wb") as file:
+                file.write(requests.get(download_url).content)
+            print(f"[*] hcaptcha solver updated {bcolors.MAGENTA}[{bcolors.RESET}{tag_name}{bcolors.MAGENTA}]{bcolors.RESET}")
+            break
+        
 class RiotGen():
     def __init__(self):
         update_xpi()
         self.config = json.load(open('src/config.json'))
         options = Options()
-        options.binary_location  = self.config["firefox_binary_location"]
+        # options.binary_location  = self.config["firefox_binary_location"]
         options.headless         = False
-        self.driver              = webdriver.Firefox(options, service=FirefoxService(GeckoDriverManager().install(), log_path='/dev/null'))
+        self.driver              = webdriver.Firefox(options, service=FirefoxService(GeckoDriverManager().install())) # log_path='/dev/null'
         self.email               = ''.join(choices('abcdefghijklmnopqrstuvwxyz1234567890', k=6)) + "@randommail.com"
         self.name                = generate_name()
         self.password            = ''.join(choices('abcdefghijklmnopqrstuvwxyz1234567890', k=8))
