@@ -1,14 +1,14 @@
 from selenium.webdriver.chrome.service import Service as ChromiumService
-from selenium.common.exceptions import StaleElementReferenceException
-from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
-from webdriver_manager.core.utils import ChromeType
-from selenium.webdriver.support.ui import WebDriverWait
+try:
+    from webdriver_manager.core.utils import ChromeType # for macos and others
+    service_manager = ChromeDriverManager(chrome_type=ChromeType.CHROMIUM)
+except ModuleNotFoundError:
+    service_manager = ChromeDriverManager()
 from selenium.webdriver.common.by import By
 from selenium import webdriver
-from datetime import datetime
-import string, re, requests
-from random import choices, randint, choice
+import requests
+from random import choices
 from time import sleep
 import warnings
 import json
@@ -29,7 +29,7 @@ class bcolors:
     WHITE = '\033[37m'
     UNDERLINE = '\033[4m'
     RESET = '\033[0m'
-
+   
 def update_crx():
     crx_page_url = "https://chrome.google.com/webstore/detail/hektcaptcha-hcaptcha-solv/bpfdbfnkjelhloljelooneehdalcmljb" # Replace with the desired Chrome extension URL
     ext_id = crx_page_url.split('/')[-1]
@@ -55,10 +55,10 @@ class RiotGen():
         self.crx_id = update_crx()
         options = webdriver.ChromeOptions()
         options.add_extension('solver.crx')
-        self.config             = json.load(open('src/config.json'))
-        options.binary_location = self.config["chrome_binary_location"]
+        # self.config             = json.load(open('src/config.json'))
+        # options.binary_location = self.config["chrome_binary_location"]
         options.headless        = False
-        self.driver             = webdriver.Chrome(options=options, service=ChromiumService(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()))
+        self.driver             = webdriver.Chrome(options=options, service=ChromiumService(service_manager.install()))
         self.email              = ''.join(choices('abcdefghijklmnopqrstuvwxyz1234567890', k=6)) + "@gmail.com"
         self.name               = generate_name()
         self.password           = ''.join(choices('abcdefghijklmnopqrstuvwxyz1234567890', k=8))
